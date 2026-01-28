@@ -274,11 +274,155 @@
 }
 
 @media (max-width: 640px) {
+  .pricing-page {
+    padding-top: 70px;
+  }
+
   .pricing-container {
-    padding: 2rem 1rem;
+    padding: 2.5rem 1.25rem;
   }
 
   .quote-form-card {
-    padding: 1.5rem;
+    padding: 1.75rem 1.25rem;
+  }
+
+  .quote-form-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.25rem;
+  }
+
+  .form-group label {
+    font-size: 0.95rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .form-group input,
+  .form-group select {
+    padding: 1rem;
+    font-size: 1rem;
+    min-height: 48px;
+  }
+
+  .quote-result {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .quote-result h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .quote-details {
+    padding: 1.25rem;
+  }
+
+  .quote-item {
+    padding: 0.85rem 0;
+    font-size: 0.95rem;
+  }
+
+  .quote-price {
+    padding: 1.25rem;
+    font-size: 1.15rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .quote-note {
+    font-size: 0.9rem;
+  }
+
+  .quote-result .btn-primary {
+    padding: 1.1rem;
+    font-size: 1.05rem;
+    min-height: 48px;
+  }
+
+  .pricing-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .pricing-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  .pricing-tiers {
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .tier-card {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .tier-badge {
+    padding: 0.5rem 1.1rem;
+    font-size: 0.8rem;
+  }
+
+  .tier-card h4 {
+    font-size: 1.3rem;
+  }
+
+  .tier-price {
+    font-size: 1.5rem;
+  }
+
+  .tier-desc {
+    font-size: 0.95rem;
+  }
+
+  .tier-table td {
+    padding: 0.85rem 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .tier-ideal {
+    font-size: 0.95rem;
+  }
+
+  .addons-section {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .addons-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .addon-item {
+    padding: 1rem 1.25rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .addon-item span {
+    font-size: 0.95rem;
+  }
+
+  .addon-item strong {
+    font-size: 1.05rem;
+  }
+
+  .pricing-notes {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .pricing-notes h4 {
+    font-size: 1.2rem;
+  }
+
+  .pricing-notes li {
+    font-size: 0.95rem;
+    padding: 0.65rem 0;
+    padding-left: 1.5rem;
   }
 }

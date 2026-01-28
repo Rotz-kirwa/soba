@@ -238,11 +238,134 @@
 }
 
 @media (max-width: 640px) {
+  .payment-page {
+    padding-top: 70px;
+  }
+
   .payment-container {
-    padding: 2rem 1rem;
+    padding: 2.5rem 1.25rem;
+  }
+
+  .payment-summary {
+    padding: 1.75rem 1.25rem;
+    position: static;
+  }
+
+  .payment-summary h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .summary-shipments h3 {
+    font-size: 1.1rem;
+  }
+
+  .summary-shipment {
+    padding: 1.25rem;
+  }
+
+  .summary-shipment h4 {
+    font-size: 0.95rem;
+  }
+
+  .summary-item {
+    padding: 0.85rem 0;
+    font-size: 0.95rem;
+  }
+
+  .summary-total {
+    padding: 1.25rem 0;
+    font-size: 1.15rem;
+  }
+
+  .summary-note {
+    font-size: 0.85rem;
   }
 
   .payment-methods {
-    padding: 1.5rem;
+    padding: 1.75rem 1.25rem;
+  }
+
+  .payment-methods h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .payment-options {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .payment-option {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .payment-icon {
+    font-size: 2.25rem;
+  }
+
+  .payment-info h3 {
+    font-size: 1.05rem;
+  }
+
+  .payment-info p {
+    font-size: 0.9rem;
+  }
+
+  .payment-form {
+    margin-top: 1.75rem;
+  }
+
+  .payment-form h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .payment-form .form-group {
+    margin-bottom: 1.25rem;
+  }
+
+  .payment-form label {
+    font-size: 0.95rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .payment-form input {
+    padding: 1rem;
+    font-size: 1rem;
+    min-height: 48px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .payment-instruction {
+    padding: 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .bank-details {
+    padding: 1.25rem;
+  }
+
+  .bank-details p {
+    padding: 0.65rem 0;
+    font-size: 0.95rem;
+  }
+
+  .payment-security {
+    margin-top: 1.75rem;
+    padding-top: 1.75rem;
+  }
+
+  .payment-security p {
+    font-size: 0.9rem;
+  }
+
+  .btn-primary {
+    padding: 1.1rem;
+    font-size: 1.05rem;
+    min-height: 48px;
   }
 }

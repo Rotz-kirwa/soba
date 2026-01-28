@@ -417,15 +417,196 @@
 }
 
 @media (max-width: 640px) {
-  .cargo-grid {
-    grid-template-columns: 1fr;
+  .booking-page {
+    padding-top: 70px;
   }
 
   .booking-container {
-    padding: 2rem 1rem;
+    padding: 2.5rem 1.25rem;
+  }
+
+  .top-actions {
+    margin-bottom: 1.75rem;
+  }
+
+  .btn-calculator {
+    width: 100%;
+    padding: 1.1rem 2rem;
+    font-size: 1.05rem;
+    min-height: 48px;
+  }
+
+  .cost-calculator {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .cost-calculator h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .calculator-desc {
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .calculator-form {
+    padding: 1.25rem;
+  }
+
+  .calc-row {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .calc-group label {
+    font-size: 0.95rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .calc-group input,
+  .calc-group select {
+    padding: 1rem;
+    font-size: 1rem;
+    min-height: 48px;
+  }
+
+  .btn-calculate {
+    width: 100%;
+    padding: 1.1rem 1.5rem;
+    font-size: 1.05rem;
+    min-height: 48px;
+  }
+
+  .calculator-result {
+    padding: 1.75rem;
+  }
+
+  .result-label {
+    font-size: 0.95rem;
+  }
+
+  .result-amount {
+    font-size: 2rem;
+  }
+
+  .result-note {
+    font-size: 0.9rem;
+  }
+
+  .cargo-selection h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cargo-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .cargo-card {
+    padding: 1.75rem;
+  }
+
+  .cargo-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .cargo-desc {
+    font-size: 0.95rem;
+  }
+
+  .cargo-price {
+    font-size: 1.35rem;
+  }
+
+  .btn-add-to-cart {
+    padding: 1rem;
+    font-size: 1.05rem;
+    min-height: 48px;
+  }
+
+  .contact-info-prompt {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .contact-info-prompt p {
+    font-size: 1rem;
+  }
+
+  .quick-contact-form {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .quick-contact-form input {
+    padding: 1rem;
+    font-size: 1rem;
+    min-height: 48px;
   }
 
   .booking-form-section {
-    padding: 1.5rem;
+    padding: 1.75rem 1.25rem;
+  }
+
+  .booking-form-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .booking-form .form-group {
+    margin-bottom: 1.25rem;
+  }
+
+  .booking-form label {
+    font-size: 0.95rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .booking-form input,
+  .booking-form textarea {
+    padding: 1rem;
+    font-size: 1rem;
+    min-height: 48px;
+  }
+
+  .booking-form textarea {
+    min-height: 120px;
+  }
+
+  .btn-large {
+    padding: 1.15rem;
+    font-size: 1.05rem;
+    min-height: 52px;
+  }
+
+  .cart-summary {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .cart-summary h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .cart-item {
+    padding: 1.25rem;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .cart-item-info h4 {
+    font-size: 1.15rem;
+  }
+
+  .cart-item-info p {
+    font-size: 0.95rem;
+  }
+
+  .btn-remove {
+    width: 40px;
+    height: 40px;
+    font-size: 1.3rem;
   }
 }

@@ -23,6 +23,13 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
 }
 
 html {
@@ -49,4 +56,37 @@ img {
 input, textarea, select {
   font-family: inherit;
   outline: none;
+}
+
+/* Mobile Touch Improvements */
+@media (max-width: 640px) {
+  * {
+    -webkit-tap-highlight-color: rgba(26, 95, 63, 0.1);
+  }
+
+  button, a, input, select, textarea {
+    touch-action: manipulation;
+  }
+
+  /* Ensure minimum touch target size */
+  button:not(.mobile-menu-close):not(.btn-remove),
+  .btn-primary,
+  .btn-secondary,
+  input[type="submit"],
+  input[type="button"] {
+    min-height: 48px;
+    min-width: 48px;
+  }
+
+  /* Better input fields on mobile */
+  input,
+  textarea,
+  select {
+    font-size: 16px !important; /* Prevents zoom on iOS */
+  }
+
+  /* Improve scrolling */
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
 }
