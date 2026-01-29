@@ -23,7 +23,7 @@ function App() {
   const renderPage = () => {
     switch(currentPage) {
       case 'home': return <Home setPage={setCurrentPage} />;
-      case 'services': return <Services />;
+      case 'services': return <Services setPage={setCurrentPage} />;
       case 'tracking': return <Tracking />;
       case 'pricing': return <Pricing />;
       case 'coverage': return <Coverage />;
