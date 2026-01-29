@@ -25,37 +25,6 @@ const Contact = () => {
       </div>
 
       <div className="contact-container">
-        <div className="contact-info-cards">
-          <div className="info-card">
-            <div className="info-icon">📞</div>
-            <h3>Phone</h3>
-            <p><a href="tel:+254700000000">+254 700 000 000</a></p>
-            <p><a href="tel:+254711000000">+254 711 000 000</a></p>
-            <span className="info-hours">Mon-Sat: 8AM - 6PM</span>
-          </div>
-          <div className="info-card">
-            <div className="info-icon">📧</div>
-            <h3>Email</h3>
-            <p><a href="mailto:info@sobaafrica.co.ke">info@sobaafrica.co.ke</a></p>
-            <p><a href="mailto:support@sobaafrica.co.ke">support@sobaafrica.co.ke</a></p>
-            <span className="info-hours">24-hour response time</span>
-          </div>
-          <div className="info-card">
-            <div className="info-icon">📍</div>
-            <h3>Office Location</h3>
-            <p>Moi Avenue, 3rd Floor</p>
-            <p>Nairobi CBD, Kenya</p>
-            <span className="info-hours">Visit us Mon-Fri: 9AM - 5PM</span>
-          </div>
-          <div className="info-card">
-            <div className="info-icon">💬</div>
-            <h3>WhatsApp</h3>
-            <p><a href="https://wa.me/254700000000">+254 700 000 000</a></p>
-            <p>Quick responses</p>
-            <span className="info-hours">Available 24/7</span>
-          </div>
-        </div>
-
         <div className="contact-form-section">
           <div className="form-container">
             <h2>Send Us a Message</h2>
@@ -138,6 +107,32 @@ const Contact = () => {
                 <p>Moi Avenue, 3rd Floor<br/>Nairobi CBD, Kenya</p>
                 <button className="btn-secondary">Get Directions</button>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="contact-info-card">
+          <h3>Contact Us</h3>
+          <div className="info-item">
+            <span className="info-icon">📞</span>
+            <a href="tel:+254781475851">+254 781 475 851</a>
+          </div>
+          <div className="info-item">
+            <span className="info-icon">📧</span>
+            <a href="mailto:hello@soba.africa">hello@soba.africa</a>
+          </div>
+          <div className="info-item">
+            <span className="info-icon">📍</span>
+            <div>
+              <span>Cassia Court, Klambere Road</span>
+              <span>Upper Hill, Nairobi</span>
+            </div>
+          </div>
+          <div className="info-item">
+            <span className="info-icon">🏣</span>
+            <div>
+              <span>P.O. Box 15419-00509</span>
+              <span>Nairobi, Kenya</span>
             </div>
           </div>
         </div>

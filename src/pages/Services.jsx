@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Services.css';
 
-const Services = () => {
+const Services = ({ setPage }) => {
   const [activeTab, setActiveTab] = useState('all');
 
   const services = [
@@ -128,7 +128,7 @@ const Services = () => {
                   <li key={idx}>✓ {feature}</li>
                 ))}
               </ul>
-              <button className="btn-primary">Get Quote</button>
+              <button className="btn-primary" onClick={() => setPage('pricing')}>Get Quote</button>
             </div>
           </div>
         ))}

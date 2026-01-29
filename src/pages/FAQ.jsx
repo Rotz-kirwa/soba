@@ -136,7 +136,7 @@ const FAQ = () => {
                   <div key={qIndex} className={`faq-item ${isOpen ? 'open' : ''}`}>
                     <button className="faq-question" onClick={() => toggleFAQ(globalIndex)}>
                       <span>{faq.q}</span>
-                      <span className="faq-icon">{isOpen ? '−' : '+'}</span>
+                      <span className="faq-icon">{isOpen ? '▼' : '▶'}</span>
                     </button>
                     {isOpen && <div className="faq-answer">{faq.a}</div>}
                   </div>

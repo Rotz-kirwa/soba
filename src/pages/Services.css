@@ -60,9 +60,9 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 2rem 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 1rem;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -550,14 +550,20 @@
   }
 
   .services-tabs {
-    padding: 1.25rem;
+    padding: 1.25rem 1rem 0;
+    grid-template-columns: repeat(2, 1fr);
     gap: 0.75rem;
   }
 
   .services-tabs button {
-    font-size: 0.95rem;
-    padding: 0.85rem 1.5rem;
+    font-size: 0.9rem;
+    padding: 0.8rem 1rem;
     min-height: 44px;
+    text-align: center;
+  }
+
+  .services-tabs button:first-child {
+    grid-column: 1 / -1;
   }
 
   .services-container {
