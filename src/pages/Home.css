@@ -237,6 +237,14 @@
   margin-bottom: 0.5rem;
 }
 
+.stat-short {
+  display: none;
+}
+
+.stat-full {
+  display: inline;
+}
+
 .stat-label {
   font-size: 1.1rem;
   color: var(--text-light);
@@ -601,6 +609,14 @@
 
   .stat-number {
     font-size: 2rem;
+  }
+
+  .stat-short {
+    display: inline;
+  }
+
+  .stat-full {
+    display: none;
   }
 
   .stat-label {

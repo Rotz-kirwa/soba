@@ -59,15 +59,24 @@ const Home = ({ setPage }) => {
       <section className="stats">
         <div className="stats-container">
           <div className="stat-item">
-            <div className="stat-number">{stats.parcels.toLocaleString()}+</div>
+            <div className="stat-number">
+              <span className="stat-full">{stats.parcels.toLocaleString()}+</span>
+              <span className="stat-short">50K+</span>
+            </div>
             <div className="stat-label">Parcels Delivered</div>
           </div>
           <div className="stat-item">
-            <div className="stat-number">{stats.areas}+</div>
+            <div className="stat-number">
+              <span className="stat-full">{stats.areas}+</span>
+              <span className="stat-short">47+</span>
+            </div>
             <div className="stat-label">Counties Covered</div>
           </div>
           <div className="stat-item">
-            <div className="stat-number">{stats.customers.toLocaleString()}+</div>
+            <div className="stat-number">
+              <span className="stat-full">{stats.customers.toLocaleString()}+</span>
+              <span className="stat-short">15K+</span>
+            </div>
             <div className="stat-label">Happy Customers</div>
           </div>
         </div>
